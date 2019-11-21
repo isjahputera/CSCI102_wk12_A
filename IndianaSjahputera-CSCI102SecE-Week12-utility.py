@@ -50,6 +50,7 @@ def Union(list1, list2):
     list3 = list1 + list2
     print("OUTPUT", list3)
 
+
 # Function 7 - Intersection
 
 def Intersection(ilist1, ilist2):
