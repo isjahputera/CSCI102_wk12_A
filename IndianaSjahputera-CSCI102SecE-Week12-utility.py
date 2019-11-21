@@ -9,6 +9,7 @@
 def PrintOutput(string):
     print('OUTPUT', string)
 
+
 # Function 2 - LoadFile
 
 def LoadFile(file):
@@ -17,11 +18,13 @@ def LoadFile(file):
         f_list = list(f)
     return r_file
 
+
 # Function 3 - UpdateString
 
 def UpdateSetting(string1, string2, num):
     new_string = string1[:num] + string2 + string1[num + 1:] #Saw this online/spoke with people
     print("OUTPUT", new_string)
+
 
 # Function 4 - FindWordCount
 
