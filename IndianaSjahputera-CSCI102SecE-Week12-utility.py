@@ -57,8 +57,10 @@ def ScoreFinder(players, scores, name):
 # Function 6 - Union 
 
 def Union(list1, list2):
-    list3 = list1 + list2
-    return list3
+    for i in list2:
+        if i not in list1:
+            list1.append(i)
+    return list1
 
 
 # Function 7 - Intersection 
