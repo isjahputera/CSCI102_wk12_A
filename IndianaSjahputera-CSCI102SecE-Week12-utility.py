@@ -20,7 +20,7 @@ def LoadFile(file):
 # Function 3 - UpdateString
 
 def UpdateSetting(string1, string2, num):
-    new_string = string1[:num] + string2 + string1[num + 1:]
+    new_string = string1[:num] + string2 + string1[num + 1:] #Saw this online/spoke with people
     print("OUTPUT", new_string)
 
 # Function 4 - FindWordCount
