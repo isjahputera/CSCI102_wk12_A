@@ -43,6 +43,7 @@ def ScoreFinder(players, scores, name):
     else:
         print("OUTPUT player not found")
 
+
 # Function 6 - Union
 
 def Union(list1, list2):
